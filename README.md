@@ -70,12 +70,21 @@ To compare specific groups and output to a new file (which you must open and fee
   - **Not Statistically Significant:**
     - Similar peak sharpness and roughness levels between high vibrance and low pleasantness ratings.
 
-## Conclusions and Recommendations to Create Restorative Soundscapes
+## Conclusions
+To create restorative soundscapes:
 
-1. **Enhancing Tonality and Fluctuation Strength:** Key to increasing vibrancy and eventfulness.
-2. **Moderating Loudness:** Lower average loudness correlates with more pleasant soundscapes.
-3. **Balancing Sharpness and Roughness:** Important for maintaining a pleasant acoustic environment.
+1. **Enhance Tonality and Fluctuation Strength:** 
+    - Key to increasing vibrancy and eventfulness.
+2. **Moderate Loudness:** 
+    - Lower average loudness correlates with more pleasant soundscapes.
+3. **Balance Sharpness and Roughness:** 
+    - Important for maintaining a pleasant acoustic environment.
 
+
+## Future Steps
+- Explore tonality of many remarkable soundscapes for dominant frequency range in spectrum analysis.
+- Perform experiment to analyze restorativeness of remarkable soundscapes (with features summarized in previous section).
+- Produce unconventional soundscapes emphasizing the psychoacoustic parameters found to be most restorative.
 ---
 
 *Note: This README is part of an ongoing research project at the MIT Media Lab analyzing the characteristics of soundscapes that lead to attention restoration. It integrates findings from initial and subsequent analyses to provide a comprehensive view of the role of psychoacoustic features in shaping affective states in urban environments.*
