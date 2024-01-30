@@ -39,7 +39,22 @@ All functions are pre-documented in `ARAUS T-testing.ipynb`. Make sure to run al
 
 If you're trying to adjust which groups to compare, change the `remarkable_groups` and `comparison_groups` dictionaries in cell 3.
 
-To compare specific groups and output to a new file (which you must open and feed into the function, as demonstrated), use the `verbose_compare_groups` function combined with the `select_group` function to specify individual groups.
+To compare specific groups and output to a new file, use the `verbose_compare_groups` function combined with the `select_group` function to specify individual groups. Below is an example of how to use these functions:
+
+```python
+# Open file to write comparison output to
+with open(file_path, "w") as file:
+    # Compare all combinations of groups individually
+    for r_group in remarkable_group_data:
+        for c_group in comparison_group_data:
+            verbose_compare_groups(
+                select_group(remarkable_group_data, r_group),
+                select_group(comparison_group_data, c_group),
+                columns_of_interest : dict,
+                file,
+                p_value
+            )
+```
 
 
 ## Results Summary
