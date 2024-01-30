@@ -2,6 +2,7 @@
 - [R_pleasant_5 vs. C_pleasant_1](#comparison-between-r_pleasant_5-and-c_pleasant_1-groups)
 - [R_eventful_5 vs. C_eventful_1](#comparison-between-r_eventful_5-and-c_eventful_1-groups)
 - [R_vibrant_5 vs. C_vibrant_1](#comparison-between-r_vibrant_5-and-c_vibrant_1-groups)
+
 ## COMPARISON BETWEEN R_pleasant_5 AND C_pleasant_1 GROUPS
 
 ### PARAMETER: Average Sharpness (acum)

@@ -1,3 +1,14 @@
+# Table of Contents
+- [R_pleasant_5 vs. C_pleasant_1](#comparison-between-r_pleasant_5-and-c_pleasant_1-groups)
+- [R_pleasant_5 vs. C_eventful_1](#comparison-between-r_pleasant_5-and-c_eventful_1-groups)
+- [R_pleasant_5 vs. C_vibrant_1](#comparison-between-r_pleasant_5-and-c_vibrant_1-groups)
+- [R_eventful_5 vs. C_pleasant_1](#comparison-between-r_eventful_5-and-c_pleasant_1-groups)
+- [R_eventful_5 vs. C_eventful_1](#comparison-between-r_eventful_5-and-c_eventful_1-groups)
+- [R_eventful_5 vs. C_vibrant_1](#comparison-between-r_eventful_5-and-c_vibrant_1-groups)
+- [R_vibrant_5 vs. C_pleasant_1](#comparison-between-r_vibrant_5-and-c_pleasant_1-groups)
+- [R_vibrant_5 vs. C_eventful_1](#comparison-between-r_vibrant_5-and-c_eventful_1-groups)
+- [R_vibrant_5 vs. C_vibrant_1](#comparison-between-r_vibrant_5-and-c_vibrant_1-groups)
+
 ## COMPARISON BETWEEN R_pleasant_5 AND C_pleasant_1 GROUPS
 
 ### PARAMETER: Average Sharpness (acum)
@@ -53,11 +64,6 @@
 - *R_pleasant_5* MEAN: 1.3545 - **LOWER**
 - *C_pleasant_1* MEAN: 1.8841 - **HIGHER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: -18.2541
-
-______________________________________
-
-
-
 
 ## COMPARISON BETWEEN R_pleasant_5 AND C_eventful_1 GROUPS
 
@@ -115,11 +121,6 @@ ______________________________________
 - *C_eventful_1* MEAN: 1.2321 - **LOWER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: 5.0832
 
-______________________________________
-
-
-
-
 ## COMPARISON BETWEEN R_pleasant_5 AND C_vibrant_1 GROUPS
 
 ### PARAMETER: Average Sharpness (acum)
@@ -176,10 +177,7 @@ ______________________________________
 - *C_vibrant_1* MEAN: 1.3638 - **HIGHER**
 > NOT A STATISTICALLY SIGNIFICANT DIFFERENCE WITH P=0.01: p-value: 0.7232, t-value: -0.3542
 
-______________________________________
-
-
-
+______________________________________</br></br></br></br>
 
 ## COMPARISON BETWEEN R_eventful_5 AND C_pleasant_1 GROUPS
 
@@ -237,11 +235,6 @@ ______________________________________
 - *C_pleasant_1* MEAN: 1.8841 - **LOWER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: 11.1111
 
-______________________________________
-
-
-
-
 ## COMPARISON BETWEEN R_eventful_5 AND C_eventful_1 GROUPS
 
 ### PARAMETER: Average Sharpness (acum)
@@ -297,11 +290,6 @@ ______________________________________
 - *R_eventful_5* MEAN: 2.2806 - **HIGHER**
 - *C_eventful_1* MEAN: 1.2321 - **LOWER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: 32.9552
-
-______________________________________
-
-
-
 
 ## COMPARISON BETWEEN R_eventful_5 AND C_vibrant_1 GROUPS
 
@@ -359,10 +347,7 @@ ______________________________________
 - *C_vibrant_1* MEAN: 1.3638 - **LOWER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: 27.4134
 
-______________________________________
-
-
-
+______________________________________</br></br></br></br>
 
 ## COMPARISON BETWEEN R_vibrant_5 AND C_pleasant_1 GROUPS
 
@@ -420,11 +405,6 @@ ______________________________________
 - *C_pleasant_1* MEAN: 1.8841 - **LOWER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: 9.3092
 
-______________________________________
-
-
-
-
 ## COMPARISON BETWEEN R_vibrant_5 AND C_eventful_1 GROUPS
 
 ### PARAMETER: Average Sharpness (acum)
@@ -480,11 +460,6 @@ ______________________________________
 - *R_vibrant_5* MEAN: 2.2439 - **HIGHER**
 - *C_eventful_1* MEAN: 1.2321 - **LOWER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: 28.8174
-
-______________________________________
-
-
-
 
 ## COMPARISON BETWEEN R_vibrant_5 AND C_vibrant_1 GROUPS
 
@@ -542,8 +517,5 @@ ______________________________________
 - *C_vibrant_1* MEAN: 1.3638 - **LOWER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: 24.0518
 
-______________________________________
-
-
-
+______________________________________</br></br></br></br>
 
