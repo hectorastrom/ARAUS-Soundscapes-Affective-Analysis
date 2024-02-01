@@ -14,7 +14,7 @@ The focus of this analysis is to explore how different psychoacoustic features o
     - **Cleaning Process:** Removal of first and last (consistency stimuli) and attention stimulus soundscapes (as recommended by ARAUS creators for data analysis). Sorted by descending vibrant, pleasant, and eventful ratings using SQL.
     - **Analysis Tools:** Python with pandas for data manipulation and analysis.
     - **Key Parameters Analyzed:** Sharpness (S), Loudness (N), Fluctuation Strength (F), Roughness (R), and Tonality (T).
-    - The cleaned and sorted dataset is available in `datasets/cleaned_ARAUS.csv`
+    - The cleaned and sorted dataset is available in `datasets/ARAUS_precleaned.csv`
 2. **Analysis Approach:**
     - Use Python `pandas` and `SciPy` for data filtering and analysis.
     - Isolate soundscapes based on specific affective ratings into remarkable and comparison groups.
@@ -27,8 +27,9 @@ In the ARAUS dataset, soundscapes are rated on a scale of 1 to 5 on eight affect
 ## Directory Structure
 ```
 ├── datasets/                                           # Location of all dataframes used in analysis.
-│   ├── ARAUS_cleaned.csv                                     # Original (slightly cleaned) file with all columns.
+│   ├── ARAUS_precleaned.csv                                  # Original (slightly cleaned) file with all columns.
 │   ├── ARAUS_relevant.csv                                    # File with only columns used for statistical analysis.
+│   ├── ARAUS_merged.csv                                      # File with duplicate soundscapes merged and averaged.
 │   ├── remarkable_groups/                              # Storage for remarkable group data.
 │   └── comparison_groups/                              # Storage for comparison group data.
 │
