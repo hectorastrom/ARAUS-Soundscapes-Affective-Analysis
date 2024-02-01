@@ -2,7 +2,7 @@
 
 ## Overview
 
-This documentation presents an analysis of the ARAUS dataset, a large-scale dataset comprising 25,440 unique subjective perceptual responses to augmented urban soundscapes. Urban soundscapes are augmented through the addition of various "maskers" (like water or bird sounds). The dataset is publicly available and open to use under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). Full credit for the creation of the ARAUS dataset is attributed to Kenneth Ooi, Zhen-Ting Ong, Karn N. Watcharasupat, Bhan Lam, Joo Young Hong, and Woon-Seng Gan. The dataset and its associated materials can be accessed through the Digital Repository of Nanyang Technological University (DR-NTU) at this link: [ARAUS: A Large-Scale Dataset and Baseline Models of Affective Responses to Augmented Urban Soundscapes](https://doi.org/10.21979/N9/9OTEVX). Further, the GitHub documenting their research code can be accessed [here](https://github.com/ntudsp/araus-dataset-baseline-models).
+This documentation presents an analysis of the [ARAUS dataset](https://arxiv.org/pdf/2207.01078.pdf), a large-scale dataset comprising 25,440 unique subjective perceptual responses from 749 participants to augmented urban soundscapes. Urban soundscapes are augmented through the addition of various "maskers" (like water or bird sounds). The dataset is publicly available and open to use under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0). Full credit for the creation of the ARAUS dataset is attributed to Kenneth Ooi, Zhen-Ting Ong, Karn N. Watcharasupat, Bhan Lam, Joo Young Hong, and Woon-Seng Gan. The dataset and its associated materials can be accessed through the Digital Repository of Nanyang Technological University (DR-NTU) at this link: [ARAUS: A Large-Scale Dataset and Baseline Models of Affective Responses to Augmented Urban Soundscapes](https://doi.org/10.21979/N9/9OTEVX). Further, the GitHub documenting their research code can be accessed [here](https://github.com/ntudsp/araus-dataset-baseline-models).
 
 The focus of this analysis is to explore how different psychoacoustic features of urban soundscapes influence affective states such as "pleasantness," "vibrance," and "eventfulness." Building upon the original dataset's comprehensive collection of perceptual responses, this analysis aims to identify key sound characteristics that contribute to restorative urban soundscapes, hypothesizing that certain psychoacoustic parameters as defined in [ISO/TS 12913-2:2018](https://www.iso.org/standard/75267.html) will evoke sensations of restoration (from Attention Restoration Theory) due to their high valence and arousal according to [Russell’s Circumplex Model of Emotions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2367156/#:~:text=The%20circumplex%20model%20of%20affect%20posits%20that%20the%20two%20underlying,salient%20situational%20and%20historical%20contexts).
 
@@ -104,9 +104,11 @@ To create restorative soundscapes:
 - Explore tonality of many remarkable soundscapes for dominant frequency range in spectrum analysis.
 - Perform experiment to analyze restorativeness of remarkable soundscapes (with features summarized in previous section).
 - Produce unconventional soundscapes emphasizing the psychoacoustic parameters found to be most restorative.
----
 
 ## Maintainers
 - Hector Astrom - *hastrom@mit.edu*
 
-*Note: This README is part of an ongoing research project at the MIT Media Lab analyzing the characteristics of soundscapes that lead to attention restoration. It integrates findings from initial and subsequent analyses to provide a comprehensive view of the role of psychoacoustic features in shaping affective states in urban environments.*
+
+---
+
+*Note: This README is part of an ongoing research project at the MIT Media Lab analyzing the characteristics of soundscapes that lead to attention restoration. It integrates findings from initial and subsequent analyses to provide a comprehensive view of the role of psychoacoustic features in soundscapes in shaping affective states*
