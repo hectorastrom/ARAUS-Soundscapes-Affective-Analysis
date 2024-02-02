@@ -1,62 +1,66 @@
 # Table of Contents
-- [top 10% of pleasant and vibrant soundscapes vs. bottom 10% of pleasant soundscapes](#comparison-between-top-10-of-pleasant-and-vibrant-soundscapes-and-bottom-10-of-pleasant-soundscapes)
+- [top 10% of pleasant & vibrant soundscapes vs. bottom 10% of pleasant soundscapes](#comparison-between-top-10-of-pleasant-&-vibrant-soundscapes-and-bottom-10-of-pleasant-soundscapes)
 - [top 10% of eventful soundscapes vs. bottom 10% of eventful soundscapes](#comparison-between-top-10-of-eventful-soundscapes-and-bottom-10-of-eventful-soundscapes)
 - [top 10% of vibrant soundscapes vs. bottom 10% of vibrant soundscapes](#comparison-between-top-10-of-vibrant-soundscapes-and-bottom-10-of-vibrant-soundscapes)
 
-## COMPARISON BETWEEN top 10% of pleasant and vibrant soundscapes AND bottom 10% of pleasant soundscapes
+## COMPARISON BETWEEN top 10% of pleasant & vibrant soundscapes AND bottom 10% of pleasant soundscapes
 
 [back to top](#table-of-contents)
+
+*At a glace:*
+
+ **STATISTICALLY SIGNIFICANT DIFFERENCES**: ['Smax_r', 'Navg_r', 'Nmax_r', 'Fmax_r', 'Ravg_r', 'Rmax_r', 'Tavg_r', 'Tmax_r'].
 ### PARAMETER: Average Sharpness (acum)
-- *top 10% of pleasant and vibrant soundscapes* MEAN: 1.4507 - **LOWER**
+- *top 10% of pleasant & vibrant soundscapes* MEAN: 1.4507 - **LOWER**
 - *bottom 10% of pleasant soundscapes* MEAN: 1.4604 - **HIGHER**
 > NOT A STATISTICALLY SIGNIFICANT DIFFERENCE WITH P=0.01: p-value: 0.3038, t-value: -1.0284
 
 ### PARAMETER: Peak Sharpness (acum)
-- *top 10% of pleasant and vibrant soundscapes* MEAN: 1.9933 - **HIGHER**
+- *top 10% of pleasant & vibrant soundscapes* MEAN: 1.9933 - **HIGHER**
 - *bottom 10% of pleasant soundscapes* MEAN: 1.9272 - **LOWER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: 4.4300
 
 -------------------
 ### PARAMETER: Average Loudness (sone)
-- *top 10% of pleasant and vibrant soundscapes* MEAN: 13.1476 - **LOWER**
+- *top 10% of pleasant & vibrant soundscapes* MEAN: 13.1476 - **LOWER**
 - *bottom 10% of pleasant soundscapes* MEAN: 21.9334 - **HIGHER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: -40.8328
 
 ### PARAMETER: Peak Loudness (sone)
-- *top 10% of pleasant and vibrant soundscapes* MEAN: 20.8688 - **LOWER**
+- *top 10% of pleasant & vibrant soundscapes* MEAN: 20.8688 - **LOWER**
 - *bottom 10% of pleasant soundscapes* MEAN: 35.7329 - **HIGHER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: -39.6069
 
 -------------------
 ### PARAMETER: Average Fluctuation Strength (vacil)
-- *top 10% of pleasant and vibrant soundscapes* MEAN: 0.0252 - **LOWER**
+- *top 10% of pleasant & vibrant soundscapes* MEAN: 0.0252 - **LOWER**
 - *bottom 10% of pleasant soundscapes* MEAN: 0.0277 - **HIGHER**
 > NOT A STATISTICALLY SIGNIFICANT DIFFERENCE WITH P=0.01: p-value: 0.0134, t-value: -2.4738
 
 ### PARAMETER: Peak Fluctuation Strength (vacil)
-- *top 10% of pleasant and vibrant soundscapes* MEAN: 0.1143 - **LOWER**
+- *top 10% of pleasant & vibrant soundscapes* MEAN: 0.1143 - **LOWER**
 - *bottom 10% of pleasant soundscapes* MEAN: 0.1388 - **HIGHER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: -10.9712
 
 -------------------
 ### PARAMETER: Average Roughness (asper)
-- *top 10% of pleasant and vibrant soundscapes* MEAN: 0.0276 - **LOWER**
+- *top 10% of pleasant & vibrant soundscapes* MEAN: 0.0276 - **LOWER**
 - *bottom 10% of pleasant soundscapes* MEAN: 0.0369 - **HIGHER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: -27.3927
 
 ### PARAMETER: Peak Roughness (asper)
-- *top 10% of pleasant and vibrant soundscapes* MEAN: 0.0820 - **LOWER**
+- *top 10% of pleasant & vibrant soundscapes* MEAN: 0.0820 - **LOWER**
 - *bottom 10% of pleasant soundscapes* MEAN: 0.1041 - **HIGHER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: -10.9189
 
 -------------------
 ### PARAMETER: Average Tonality (tonality units)
-- *top 10% of pleasant and vibrant soundscapes* MEAN: 0.2161 - **LOWER**
+- *top 10% of pleasant & vibrant soundscapes* MEAN: 0.2161 - **LOWER**
 - *bottom 10% of pleasant soundscapes* MEAN: 0.2796 - **HIGHER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: -8.4194
 
 ### PARAMETER: Peak Tonality (tonality units)
-- *top 10% of pleasant and vibrant soundscapes* MEAN: 1.3599 - **LOWER**
+- *top 10% of pleasant & vibrant soundscapes* MEAN: 1.3599 - **LOWER**
 - *bottom 10% of pleasant soundscapes* MEAN: 1.8908 - **HIGHER**
 > **STATISTICALLY SIGNIFICANT** DIFFERENCE WITH P=0.01: p-value: 0.0000, t-value: -14.6444
 
@@ -65,6 +69,10 @@ ______________________________________</br></br></br></br>
 ## COMPARISON BETWEEN top 10% of eventful soundscapes AND bottom 10% of eventful soundscapes
 
 [back to top](#table-of-contents)
+
+*At a glace:*
+
+ **STATISTICALLY SIGNIFICANT DIFFERENCES**: ['Navg_r', 'Nmax_r', 'Favg_r', 'Fmax_r', 'Ravg_r', 'Rmax_r', 'Tavg_r', 'Tmax_r'].
 ### PARAMETER: Average Sharpness (acum)
 - *top 10% of eventful soundscapes* MEAN: 1.4451 - **HIGHER**
 - *bottom 10% of eventful soundscapes* MEAN: 1.4298 - **LOWER**
@@ -124,6 +132,10 @@ ______________________________________</br></br></br></br>
 ## COMPARISON BETWEEN top 10% of vibrant soundscapes AND bottom 10% of vibrant soundscapes
 
 [back to top](#table-of-contents)
+
+*At a glace:*
+
+ **STATISTICALLY SIGNIFICANT DIFFERENCES**: ['Savg_r', 'Smax_r', 'Navg_r', 'Nmax_r', 'Favg_r', 'Fmax_r', 'Ravg_r', 'Rmax_r', 'Tavg_r', 'Tmax_r'].
 ### PARAMETER: Average Sharpness (acum)
 - *top 10% of vibrant soundscapes* MEAN: 1.4421 - **HIGHER**
 - *bottom 10% of vibrant soundscapes* MEAN: 1.4181 - **LOWER**
