@@ -14,7 +14,7 @@ The focus of this analysis is to explore how different psychoacoustic features o
     - **Cleaning Process:** Removal of first and last (consistency stimuli) and attention stimulus soundscapes (as recommended by ARAUS creators for data analysis). Sorted by descending vibrant, pleasant, and eventful ratings using SQL.
     - **Analysis Tools:** Python with pandas for data manipulation and analysis.
     - **Key Parameters Analyzed:** Sharpness (S), Loudness (N), Fluctuation Strength (F), Roughness (R), and Tonality (T).
-    - The cleaned and sorted dataset is available in `datasets/ARAUS_precleaned.csv`
+    - The lightly cleaned and sorted dataset is available in `datasets/ARAUS_precleaned.csv`
 2. **Analysis Approach:**
     - Use Python `pandas` and `SciPy` for data filtering and analysis.
     - Isolate soundscapes based on specific affective ratings into remarkable and comparison groups.
@@ -22,7 +22,9 @@ The focus of this analysis is to explore how different psychoacoustic features o
     - Perform independent t-tests to assess statistical significance.
 
 #### Grouping
-In the ARAUS dataset, soundscapes are rated on a scale of 1 to 5 on eight affective features: {pleasant, eventful, chaotic, vibrant, uneventful, calm, annoying, monotonous}. In this analysis, we focused on the states of vibrance (high valence, high arousal), pleasantness (high valence, moderate arousal), and eventfulness (moderate valence, high arousal). Low values (equal to 1) of these psychoacoustic parameters were used as comparison groups to evaluate what psychoacoustic parameters result in remarkable (rating equal to 5) reports of pleasantness, vibrance, or eventfulness.
+In the ARAUS dataset, soundscapes are rated on a scale of 1 to 5 on eight affective features: {pleasant, eventful, chaotic, vibrant, uneventful, calm, annoying, monotonous}. In this analysis, we focused on the states of vibrance (high valence, high arousal), pleasantness (high valence, moderate arousal), and eventfulness (moderate valence, high arousal). Low values of these affective ratings (through bottom percentiles) were used as comparison groups to evaluate what psychoacoustic parameters result in remarkable (top percentile ratings) reports of pleasantness, vibrance, or eventfulness. 
+
+The data for these comparisons is accessible in this repository. However, the groups can be quickly adjusted to perform analysis and comparison between other groups, such as a comparison between groups of multiple affective features and other percentile ranges.
 
 ## Directory Structure
 ```
@@ -43,7 +45,7 @@ In the ARAUS dataset, soundscapes are rated on a scale of 1 to 5 on eight affect
 ```
 
 ## Usage
-The code is entirely documented and **modular**, so that groups, affective state filters, and psychoacoustic parameters can be easily adjusted in cell 3 dictionaries. 
+The code is entirely documented and **modular**, so that groups, affective state filters, and psychoacoustic parameters can be easily adjusted in the `remarkable_groups` & `comparison_groups` lists, their filter lists specified when initializing the Group objects, and the `comparison_columns` dictionary respectively. 
 
 #### Getting Started
 1. Clone the repository from the [GitHub page](https://github.com/hectorastrom/ARAUS-T-Testing) using git
@@ -56,9 +58,11 @@ All functions and code live in `ARAUS T-testing.ipynb`
 #### Using the Code
 - All functions are pre-documented in `ARAUS T-testing.ipynb`. Make sure to run all prior cells before trying to run a later one.
 
-- If you're trying to adjust which groups to compare, change the `remarkable_groups` and `comparison_groups` dictionaries according to the format in cell 3.
+- If you're trying to adjust which groups to compare, change the `remarkable_groups` and `comparison_groups` lists according by initializing Group objects with specific filters
+    - Group objects accept three main parameters and a variable list of filters which is documented in the class defintion
 
-- To compare specific groups and output to a new file, use the `verbose_compare_groups` function combined with the `select_group` function to specify individual groups. 
+- To compare specific groups and output to a new file, use the `verbose_compare_groups` function which will print a Markdown formatted comparison between two groups. You must open a file to enter as an argument for the function before using it
+    - Use loops to create multiple comparisons in a single file, as demonstrated below
 
 *Example format:*
 
@@ -66,44 +70,53 @@ All functions and code live in `ARAUS T-testing.ipynb`
 # Open file to write comparison output to
 with open(file_path, "w") as file:
     # Compare all combinations of groups individually
-    for r_group in remarkable_group_data:
-        for c_group in comparison_group_data:
+    for r_group in remarkable_groups:
+        for c_group in comparison_groups:
             verbose_compare_groups(
-                select_group(remarkable_group_data, r_group),
-                select_group(comparison_group_data, c_group),
-                columns_of_interest : dict,
-                file,
-                p_value
+                r_group,
+                c_group,
+                file
             )
       # Optionally: separate comparisons
       file.write("______________________________________</br></br></br></br>\n\n")
 ```
-Active code in cell 6 used to generate `total_comparisons.md` and `corresponding_comparisons.md` serve as additional examples on adjusting format and styling, group inclusion, and file pathing.
+Specific code in cell 7 used to generate `total_comparisons.md` and `corresponding_comparisons.md` serve as additional examples on adjusting the format of comparison, styling (including adding a table of contents), group inclusion, and file pathing.
 
 
 ## Results
 
-A complete analysis of all remarkable groups vs. comparison groups outputted by `verbose_compare_groups` in cell 6 can be found in `/t-test-outputs/total_comparisons.md`. 
+A complete analysis of all remarkable groups vs. comparison groups outputted by `verbose_compare_groups` in cell 7 can be found in `/t-test-outputs/total_comparisons.md`. 
 
-As remarkable and comparison group selection change, we neglect to include the results in the README. We instead encourage exploring the files in `t-test-outputs/`, or performing independent adjustment of group selection and comparison generation: a process detailed [above](#using-the-code).
+These are specific results for arbitrary, but insightful, filter parameters and groups. For more nuanced and specific results, we encourage performing independent adjustment of group selection and comparison generation: a process detailed [above](#using-the-code).
 
 
 ## Conclusions
-*Through synthesizing and analyzing data from the generated results*
+*Through synthesizing and analyzing data from results comparing top 5% and bottom 5% of pleasant and vibrant soundscapes*
 
-To create restorative soundscapes:
+Our hypothesis that high valence and high arousal soundscapes will lead to restoration was not supported ubititiously. We found a strong descreptency between the directions of change to the psychoacoustic parameters whcih lead to highly rated pleasant soundscapes and the change that leads to highly rated vibrant soundscapes; in fact, they are completely incongruent.
 
-1. **Enhance Tonality and Fluctuation Strength:** 
-    - Key to increasing vibrancy and eventfulness.
-2. **Moderate Loudness:** 
-    - Lower average loudness correlates with more pleasant soundscapes.
-3. **Balance Sharpness and Roughness:** 
-    - Important for maintaining a pleasant acoustic environment.
+To create **pleasant** soundscapes, the statistically significant results from `corresponding_comparisons.md` showed to: 
+
+- **Raise** peak <u>sharpness</u> – *in particular high frequency content*
+- Greatly **lower** average & peak <u>loudness</u> – *lowering both decibel levels and reducing high frequency content, which is perceieved as louder*
+- **Lower** average & peak <u>fluctuation strength</u> – *reducing the speed of the slow up-and-down change in loudness*
+- Greatly **lower** average & peak [roughness](https://hub.salford.ac.uk/sirc-acoustics/psychoacoustics/sound-quality-making-products-sound-better/an-introduction-to-sound-quality-testing/roughness-fluctuation-strength/) – *which decreases from a 70hz modulation frequency peak*
+- Greatly **lower** average & peak <u>tonality</u> – *reducing distinct pitches that stand out against the background noise*
+
+Conversely, to create **vibrant** soundscapes, the results showed to:
+
+- **Raise** average & peak <u>loudness</u>
+- **Raise** average & peak <u>fluctuation strength</u>
+- **Raise** average & peak <u>rougness</u>
+- **Raise** average & peak <u>tonality</u>
+
+We can see that these results are in direct contrast. This clues us to reform our hypothesis, and to further distinguish the characteristics of pleasant soundscapes from vibrant soundscapes. Further testing must be conducted to determine if pleasant or vibrant soundscapes lead to greater restoration.
+
 
 
 ## Future Steps
-- Explore tonality of many remarkable soundscapes for dominant frequency range in spectrum analysis.
-- Perform experiment to analyze restorativeness of remarkable soundscapes (with features summarized in previous section).
+- Explore tonality of the most remarkable soundscapes to determine a dominant frequency range in spectrum analysis.
+- Perform experiment to analyze restorativeness of highly pleasant soundscapes and highly vibrant soundscapes (using features summarized in the [conclusions](#conclusions))
 - Produce unconventional soundscapes emphasizing the psychoacoustic parameters found to be most restorative.
 
 ## Maintainers
