@@ -13,9 +13,23 @@
 
 [back to top](#table-of-contents)
 
-*At a glace:*
+*At a glace, the top 5% of pleasant soundscapes have:*
 
- **STATISTICALLY SIGNIFICANT DIFFERENCES**: Smax_r, Navg_r, Nmax_r, Favg_r, Fmax_r, Ravg_r, Rmax_r, Tavg_r, Tmax_r.
+**HIGHER**: 
+ - Peak Sharpness (acum)
+
+**LOWER**: 
+ - Average Loudness (sone)
+ - Peak Loudness (sone)
+ - Average Fluctuation Strength (vacil)
+ - Peak Fluctuation Strength (vacil)
+ - Average Roughness (asper)
+ - Peak Roughness (asper)
+ - Average Tonality (tonality units)
+ - Peak Tonality (tonality units)
+
+## Details:
+
 ### PARAMETER: Average Sharpness (acum)
 - *top 5% of pleasant soundscapes* MEAN: 1.4494 - **LOWER**
 - *bottom 5% of pleasant soundscapes* MEAN: 1.4804 - **HIGHER**
@@ -74,9 +88,19 @@
 
 [back to top](#table-of-contents)
 
-*At a glace:*
+*At a glace, the top 5% of pleasant soundscapes have:*
 
- **STATISTICALLY SIGNIFICANT DIFFERENCES**: Smax_r, Navg_r, Nmax_r, Ravg_r, Tavg_r.
+**HIGHER**: 
+ - Peak Sharpness (acum)
+ - Average Tonality (tonality units)
+
+**LOWER**: 
+ - Average Loudness (sone)
+ - Peak Loudness (sone)
+ - Average Roughness (asper)
+
+## Details:
+
 ### PARAMETER: Average Sharpness (acum)
 - *top 5% of pleasant soundscapes* MEAN: 1.4494 - **HIGHER**
 - *bottom 5% of eventful soundscapes* MEAN: 1.4349 - **LOWER**
@@ -135,9 +159,18 @@
 
 [back to top](#table-of-contents)
 
-*At a glace:*
+*At a glace, the top 5% of pleasant soundscapes have:*
 
- **STATISTICALLY SIGNIFICANT DIFFERENCES**: Smax_r, Navg_r, Nmax_r, Ravg_r.
+**HIGHER**: 
+ - Peak Sharpness (acum)
+
+**LOWER**: 
+ - Average Loudness (sone)
+ - Peak Loudness (sone)
+ - Average Roughness (asper)
+
+## Details:
+
 ### PARAMETER: Average Sharpness (acum)
 - *top 5% of pleasant soundscapes* MEAN: 1.4494 - **HIGHER**
 - *bottom 5% of vibrant soundscapes* MEAN: 1.4442 - **LOWER**
@@ -198,9 +231,18 @@ ______________________________________</br></br></br></br>
 
 [back to top](#table-of-contents)
 
-*At a glace:*
+*At a glace, the top 5% of eventful soundscapes have:*
 
- **STATISTICALLY SIGNIFICANT DIFFERENCES**: Nmax_r, Ravg_r, Tavg_r, Tmax_r.
+**HIGHER**: 
+ - Average Tonality (tonality units)
+ - Peak Tonality (tonality units)
+
+**LOWER**: 
+ - Peak Loudness (sone)
+ - Average Roughness (asper)
+
+## Details:
+
 ### PARAMETER: Average Sharpness (acum)
 - *top 5% of eventful soundscapes* MEAN: 1.4498 - **LOWER**
 - *bottom 5% of pleasant soundscapes* MEAN: 1.4804 - **HIGHER**
@@ -259,9 +301,22 @@ ______________________________________</br></br></br></br>
 
 [back to top](#table-of-contents)
 
-*At a glace:*
+*At a glace, the top 5% of eventful soundscapes have:*
 
- **STATISTICALLY SIGNIFICANT DIFFERENCES**: Navg_r, Nmax_r, Favg_r, Fmax_r, Ravg_r, Rmax_r, Tavg_r, Tmax_r.
+**HIGHER**: 
+ - Average Loudness (sone)
+ - Peak Loudness (sone)
+ - Average Fluctuation Strength (vacil)
+ - Peak Fluctuation Strength (vacil)
+ - Average Roughness (asper)
+ - Peak Roughness (asper)
+ - Average Tonality (tonality units)
+ - Peak Tonality (tonality units)
+
+**LOWER**: 
+
+## Details:
+
 ### PARAMETER: Average Sharpness (acum)
 - *top 5% of eventful soundscapes* MEAN: 1.4498 - **HIGHER**
 - *bottom 5% of eventful soundscapes* MEAN: 1.4349 - **LOWER**
@@ -320,9 +375,22 @@ ______________________________________</br></br></br></br>
 
 [back to top](#table-of-contents)
 
-*At a glace:*
+*At a glace, the top 5% of eventful soundscapes have:*
 
- **STATISTICALLY SIGNIFICANT DIFFERENCES**: Navg_r, Nmax_r, Favg_r, Fmax_r, Ravg_r, Rmax_r, Tavg_r, Tmax_r.
+**HIGHER**: 
+ - Average Loudness (sone)
+ - Peak Loudness (sone)
+ - Average Fluctuation Strength (vacil)
+ - Peak Fluctuation Strength (vacil)
+ - Average Roughness (asper)
+ - Peak Roughness (asper)
+ - Average Tonality (tonality units)
+ - Peak Tonality (tonality units)
+
+**LOWER**: 
+
+## Details:
+
 ### PARAMETER: Average Sharpness (acum)
 - *top 5% of eventful soundscapes* MEAN: 1.4498 - **HIGHER**
 - *bottom 5% of vibrant soundscapes* MEAN: 1.4442 - **LOWER**
@@ -383,9 +451,19 @@ ______________________________________</br></br></br></br>
 
 [back to top](#table-of-contents)
 
-*At a glace:*
+*At a glace, the top 5% of vibrant soundscapes have:*
 
- **STATISTICALLY SIGNIFICANT DIFFERENCES**: Navg_r, Nmax_r, Fmax_r, Ravg_r, Tavg_r.
+**HIGHER**: 
+ - Average Tonality (tonality units)
+
+**LOWER**: 
+ - Average Loudness (sone)
+ - Peak Loudness (sone)
+ - Peak Fluctuation Strength (vacil)
+ - Average Roughness (asper)
+
+## Details:
+
 ### PARAMETER: Average Sharpness (acum)
 - *top 5% of vibrant soundscapes* MEAN: 1.4481 - **LOWER**
 - *bottom 5% of pleasant soundscapes* MEAN: 1.4804 - **HIGHER**
@@ -444,9 +522,22 @@ ______________________________________</br></br></br></br>
 
 [back to top](#table-of-contents)
 
-*At a glace:*
+*At a glace, the top 5% of vibrant soundscapes have:*
 
- **STATISTICALLY SIGNIFICANT DIFFERENCES**: Navg_r, Nmax_r, Favg_r, Fmax_r, Ravg_r, Rmax_r, Tavg_r, Tmax_r.
+**HIGHER**: 
+ - Average Loudness (sone)
+ - Peak Loudness (sone)
+ - Average Fluctuation Strength (vacil)
+ - Peak Fluctuation Strength (vacil)
+ - Average Roughness (asper)
+ - Peak Roughness (asper)
+ - Average Tonality (tonality units)
+ - Peak Tonality (tonality units)
+
+**LOWER**: 
+
+## Details:
+
 ### PARAMETER: Average Sharpness (acum)
 - *top 5% of vibrant soundscapes* MEAN: 1.4481 - **HIGHER**
 - *bottom 5% of eventful soundscapes* MEAN: 1.4349 - **LOWER**
@@ -505,9 +596,22 @@ ______________________________________</br></br></br></br>
 
 [back to top](#table-of-contents)
 
-*At a glace:*
+*At a glace, the top 5% of vibrant soundscapes have:*
 
- **STATISTICALLY SIGNIFICANT DIFFERENCES**: Navg_r, Nmax_r, Favg_r, Fmax_r, Ravg_r, Rmax_r, Tavg_r, Tmax_r.
+**HIGHER**: 
+ - Average Loudness (sone)
+ - Peak Loudness (sone)
+ - Average Fluctuation Strength (vacil)
+ - Peak Fluctuation Strength (vacil)
+ - Average Roughness (asper)
+ - Peak Roughness (asper)
+ - Average Tonality (tonality units)
+ - Peak Tonality (tonality units)
+
+**LOWER**: 
+
+## Details:
+
 ### PARAMETER: Average Sharpness (acum)
 - *top 5% of vibrant soundscapes* MEAN: 1.4481 - **HIGHER**
 - *bottom 5% of vibrant soundscapes* MEAN: 1.4442 - **LOWER**
